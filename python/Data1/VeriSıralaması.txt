@@ -1,0 +1,23 @@
+##########################################################################
+Dosya İsimleri
+##########################################################################
+Id	Name	   Description
+0	Noise 	   -> Boşta bekleme
+
+1	1_4_Mid    -> Orta şiddette basınç, Tek sensor, 4 saniye basma
+		   -> 1-1, 1-2, 1-3, 1-4, 2-1, 2-2, 2-3, 2-4
+
+2	1_4_High   -> Yüksek şiddette basınç, Tek sensor, 4 saniye basma
+		   -> 1-1, 1-2, 1-3, 1-4, 2-1, 2-2, 2-3, 2-4
+
+3	2_4	   ->Aynı anda 2 adet sensor, Yaklaşık 4 saniye basma
+		   ->(1-1, 2-1), (1-2, 2-2), (1-3, 2-3), (1-4, 2-4)
+
+4	3_4	   -> Aynı anda 3 adet sensır, Yaklaşık 4 saniye
+		   -> (1-1, 2-1, 1-2), (2-1, 1-2, 2-2), (1-2, 2-2, 3-1), (2-2, 3-1, 3-2), (3-1, 3-2, 4-1), (3-2, 4-1, 4-2)
+
+5	1_5_0_diag -> Tek sensör diagonal 5 saniye her sensör, sensörler arası bekleme yok.
+		   -> 1-1, 2-2, 3-3, 4-4
+
+6	1_5_5_diag -> Tek sensör diagonal 5 saniye her sensör, sensörler arası 5'er sn bekleme süresi var.
+		   -> 1-1, 2-2, 3-3, 4-4

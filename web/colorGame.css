@@ -1,0 +1,71 @@
+body {
+    background-color:   gray;
+}
+
+
+
+.square {
+    width: 20%;
+    background: black;
+    padding-bottom: 13%;
+    float: left;
+    margin: 0.1%;
+}
+
+#container {
+
+    margin:0px auto;
+    max-width: 55%;
+    color:  white;
+    text-align: center;
+    
+    
+}
+
+.button {
+    width: 5%;
+    height: 6%;
+    
+    
+}
+
+
+h1{
+    font-size: 2.5em;
+    text-align: center;
+}
+.myLabel{
+    margin-left: 38.5%;
+}
+  .my-legend .legend-scale ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    }
+  .my-legend .legend-scale ul li {
+    display: block;
+    float: left;
+    width: 50px;
+    margin-bottom: 6px;
+    text-align: center;
+    color: white;
+    font-size: 80%;
+    list-style: none;
+    }
+  .my-legend ul#legend-labels li span {
+    display: block;
+    float: left;
+    height: 15px;
+    width: 50px;
+    }
+  .my-legend .legend-source {
+    font-size: 70%;
+    color: #999;
+    clear: both;
+    }
+  .my-legend a {
+    color: #777;
+
+    }
+</style>
